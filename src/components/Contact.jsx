@@ -30,7 +30,7 @@ function Contact() {
                   className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
                />
                <button
-                  type="submit"
+                  type="button"
                   className="text-center inline-block px-8 py-3 w-max text-base
                    font-medium rounded-md text-white bg-gradient-to-r from-green-600
                    to-blue-500 drop-shadow-md"
