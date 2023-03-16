@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Header from './components/Header';
+import { motion } from 'framer-motion';
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -63,15 +64,25 @@ function App() {
 		</svg>
 	);
 
+	const hoverVariants = {
+        hover: {
+			x: 2, // Move the element 10 pixels to the right
+			y: -2, // Move the element 10 pixels up
+		  }
+    };
+
   return (
 	<>
-		<button
+		<motion.button
 			type="button"
 			onClick={handleThemeSwitch}
 			className="fixed p-2 z-10 left-1.5 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+			variants={hoverVariants}
+			whileHover="hover"
+			whileTap={{ scale: 1.2 }}
 		>
 			{theme === 'dark' ? sun : moon}
-		</button>
+		</motion.button>
 		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
 			<div className="max-w-5xl w-11/12 mx-auto">
 				<Header />
