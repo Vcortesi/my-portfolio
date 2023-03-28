@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from './Title';
+import { motion } from 'framer-motion';
 
 function Contact() {
    return (
@@ -29,14 +30,16 @@ function Contact() {
                   rows="10"
                   className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
                />
-               <button
+               <motion.button
                   type="submit"
                   className="text-center inline-block px-8 py-3 w-max text-base
                    font-medium rounded-md text-white bg-gradient-to-r from-green-600
                    to-blue-500 drop-shadow-md"
+                  whileHover={{x: 0,y: -2}} 
+			         whileTap={{ scale: 1.2 }}
                >
                   Contact Me!
-               </button>
+               </motion.button>
             </form>
          </div>
       </div>

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Header() {
 	const hoverVariants = {
         hover: {
-			x: 2, // Move the element 10 pixels to the right
+			x: 0, // Move the element 10 pixels to the right
 			y: -2, // Move the element 10 pixels up
 		  }
     };
