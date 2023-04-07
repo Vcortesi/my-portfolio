@@ -3,13 +3,13 @@ export default [
         title: 'TeemoBot',
         imgUrl: '/assets/TeemoBot.jpg',
         stack: ['Python','Discord','Riot API','Insert Hosting Here'],
-        link:'',
+        link:'https://github.com/Vcortesi/teemo-bott',
     },
     {
         title: 'Brick Breaker',
         imgUrl: '/assets/BrickBreaker.jpg',
         stack: ['Java'],
-        link:'',
+        link:'https://github.com/Vcortesi/BrickBreaker',
     },
     /*{
         title: 'Portfolio',
@@ -21,6 +21,6 @@ export default [
         title: 'Attendance Tracker',
         imgUrl: '/assets/istockphoto-1050712820-612x612.jpg',
         stack: ['HTML/CSS','Javascript','React','NodeJS','MongoDB'],
-        link:'',
+        link:'https://github.com/UltimateSeatSelectorInc',
     },
 ]
