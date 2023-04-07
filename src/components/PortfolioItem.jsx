@@ -35,4 +35,3 @@ function PortfolioItem({title, imgUrl, stack, link}) {
     )
 }
 export default PortfolioItem;
-import React from 'react';
