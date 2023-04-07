@@ -11,12 +11,14 @@ export default [
         stack: ['Java'],
         link:'https://github.com/Vcortesi/BrickBreaker',
     },
+    /*
     {
         title: 'Portfolio',
         imgUrl: 'src/assets/p4.jpg',
         stack: ['React','Tailwind','Vite'],
         link:'https://vincentacortesi.com',
-    },
+    }, 
+    */
     {
         title: 'Attendance Tracker',
         imgUrl: '/assets/Untitleduss.png',
