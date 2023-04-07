@@ -19,7 +19,7 @@ export default [
     },*/
     {
         title: 'Attendance Tracker',
-        imgUrl: '/assets/istockphoto-1050712820-612x612.jpg',
+        imgUrl: '/assets/Untitleduss.png',
         stack: ['HTML/CSS','Javascript','React','NodeJS','MongoDB'],
         link:'https://github.com/UltimateSeatSelectorInc',
     },
